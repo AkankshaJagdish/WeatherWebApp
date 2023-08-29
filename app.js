@@ -8,7 +8,7 @@ submitButton.addEventListener('click', function () {
     const cityName = cityInput.value; // Get the city name from the input
 
     // Fetch data from the API
-    fetch(`https://api.openweathermap.org/data/2.5/forecast?q=${cityName}&appid=57f2cd9d72bec773ebd55663945c18ba`)
+    fetch(`https://api.openweathermap.org/data/2.5/forecast?q=${cityName}&appid=XXXXXXXXX`)
     .then(response => response.json())
     .then(data => {
         // Log the data to the console
